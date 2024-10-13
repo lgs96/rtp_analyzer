@@ -91,7 +91,7 @@ def plot_frame_capture_times(frame_data):
     plt.show()
 
 if __name__ == "__main__":
-    pcap_file = "endure_capture.pcap"
+    pcap_file = "20mbps_pacing_endure.pcap"
     logging.info("Starting RTP packet analysis...")
     frame_data = analyze_rtp_packets(pcap_file)
     if frame_data:
